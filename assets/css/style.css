@@ -2,7 +2,8 @@
 body {
     box-sizing: border-box;
     box-align: center;
-    
+    margin: auto;
+    background-image: url("assets/images/Crystaltheme.jpg");
 }
 
 h1 {
@@ -12,17 +13,27 @@ h1 {
 }
 
 #game {
-    margin-right: 900px;
+    width: 500px;
     font-family: 'Crimson Text', serif;
     float: left;
 
 }
  #tally {
     font-family: 'Crimson Text', serif;
- 
+    float: right;
+    position: fixed;
+    margin-left: 550px;
+    padding-top: 10px;
+   
+ }
+
+ #crystals {
+     position: fixed;
+     margin-left: 900px;
  }
 
  div {
     padding: 5px;
+    
 
  }
