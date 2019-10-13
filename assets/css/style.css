@@ -1,0 +1,28 @@
+
+body {
+    box-sizing: border-box;
+    box-align: center;
+    
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center; 
+}
+
+#game {
+    margin-right: 900px;
+    font-family: 'Crimson Text', serif;
+    float: left;
+
+}
+ #tally {
+    font-family: 'Crimson Text', serif;
+ 
+ }
+
+ div {
+    padding: 5px;
+
+ }
