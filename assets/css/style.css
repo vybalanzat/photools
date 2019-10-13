@@ -26,10 +26,31 @@ h1 {
     padding-top: 10px;
    
  }
-
  #crystals {
      position: fixed;
      margin-left: 900px;
+     height: 300px;
+     width: 300px;
+     
+ }
+
+ img {
+    height: 95px;
+    width: 95px;
+    margin-left: -5px;
+    
+    
+ }
+
+ button {
+    height: 100px;
+    width:  100px;
+    margin: 10px;
+
+ }
+
+ #one {
+
  }
 
  div {
