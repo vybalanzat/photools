@@ -24,7 +24,6 @@ $(document).ready(function () {
         totalNumber = totalNumber + blue;
         console.log(blue);
         console.log('total number is' + totalNumber);
-        $("#totalNumber-text").text(totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
@@ -41,6 +40,7 @@ $(document).ready(function () {
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
         $("#randomNumber-text").text(randomNumber);
+        $("#totalNumber-text").text(totalNumber);
         
         
     });
@@ -48,7 +48,6 @@ $(document).ready(function () {
         totalNumber = totalNumber + purple;
         console.log(purple);
         console.log('total number is' + totalNumber);
-        $("#totalNumber-text").text(totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
@@ -64,6 +63,7 @@ $(document).ready(function () {
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
         $("#randomNumber-text").text(randomNumber);
+        $("#totalNumber-text").text(totalNumber);
 
     });
 
@@ -71,7 +71,6 @@ $(document).ready(function () {
         totalNumber = totalNumber + red;
         console.log(red);
         console.log('total number is' + totalNumber);
-        $("#totalNumber-text").text(totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
@@ -87,6 +86,7 @@ $(document).ready(function () {
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
         $("#randomNumber-text").text(randomNumber);
+        $("#totalNumber-text").text(totalNumber);
         
     });
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
         totalNumber = totalNumber + green;
         console.log(green);
         console.log('total number is' + totalNumber);
-        $("#totalNumber-text").text(totalNumber);
+        
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
@@ -110,9 +110,18 @@ $(document).ready(function () {
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
         $("#randomNumber-text").text(randomNumber);
+        $("#totalNumber-text").text(totalNumber);
     });
 
+
     
+   
+    $("#randomNumber-text").text(randomNumber);
+    $("#wins-text").text(wins);
+    $("#losses-text").text(losses);
+    $("#totalNumber-text").text(totalNumber);
+
+
 });
 
 
