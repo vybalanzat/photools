@@ -6,10 +6,10 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
     var totalNumber = 0;
-    var purple = Math.floor(Math.random() * 51);
-    var blue = Math.floor(Math.random() * 51);
-    var green =  Math.floor(Math.random() * 51);
-    var red  = Math.floor(Math.random() * 51);
+    var purple = Math.floor(Math.random() * 11);
+    var blue = Math.floor(Math.random() * 11);
+    var green =  Math.floor(Math.random() * 11);
+    var red  = Math.floor(Math.random() * 11);
     var randomNumber = 0;
 
 
