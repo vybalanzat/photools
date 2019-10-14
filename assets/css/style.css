@@ -3,7 +3,12 @@ body {
     box-sizing: border-box;
     box-align: center;
     margin: auto;
-    background-image: url("assets/images/Crystaltheme.jpg");
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
+     url("../images/Crystaltheme.jpg");
+    /* opacity: 0.5; */
+    
+    
+    
 }
 
 h1 {
@@ -16,13 +21,16 @@ h1 {
     width: 500px;
     font-family: 'Crimson Text', serif;
     float: left;
+    margin-left: 50px;
+   
+    
 
 }
  #tally {
     font-family: 'Crimson Text', serif;
     float: right;
     position: fixed;
-    margin-left: 550px;
+    margin-left: 600px;
     padding-top: 10px;
    
  }
