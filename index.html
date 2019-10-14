@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" type=text/css href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Fascinate+Inline&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -23,22 +24,33 @@
         <p>The value of the crystal is hidden until you click on it.</p>
         <p>Each time when the game starts, the game will change the value of each crystal</p>
     </div>
+    <div id="list">
+        <h2>Random Number:</h2>
+        <h2>Your total number:</h2>
+        <h4>Wins:</h4>
+        <h4>Losses:</h4>
+        
+        
+    </div>
     <div id="tally">
-        <h4 id="randomNumber-text">Random Number:</h4>
-       
-        <h4 id="wins-text">Wins:</h4>
-        <h4 id="losses-text">Losses:</h4>
-        <h4 id="totalNumber-text">Your total score:</h4>
-        <p id="total score"></p>
+            <h2 id="randomNumber-text"></h2>
+            <h2 id="totalNumber-text"></h2>
+            <h4 id="wins-text"></h4>
+            <h4 id="losses-text"></h4>
+          
+            
+
     </div>
     <div id="crystals">
         <button id="button"><img src="assets/images/blue.png" id="blue"></img></button>
         <button id="button"><img src="assets/images/green.png" id="green"></img></button>
         <button id="button"><img src="assets/images/purple.png" id="purple"></img></button>
-        <button><img src="assets/images/red.png" id="red"></img></button>
+        <button id="button"><img src="assets/images/red.png" id="red"></img></button>
 
     </div>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
 </body>
 
 </html>
