@@ -28,13 +28,19 @@ $(document).ready(function () {
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
+            totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
+            
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
              losses++;
+             totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
-        $("wins-text").text(wins);
+        $("#wins-text").text(wins);
         $("#losses-text").text(losses);
+        $("#randomNumber-text").text(randomNumber);
         
         
     });
@@ -46,14 +52,18 @@ $(document).ready(function () {
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
+            totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
              losses++;
+             totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
-        $("wins-text").text(wins);
+        $("#wins-text").text(wins);
         $("#losses-text").text(losses);
-        
+        $("#randomNumber-text").text(randomNumber);
 
     });
 
@@ -65,13 +75,18 @@ $(document).ready(function () {
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
+            totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
              losses++;
+             totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
-        $("wins-text").text(wins);
+        $("#wins-text").text(wins);
         $("#losses-text").text(losses);
+        $("#randomNumber-text").text(randomNumber);
         
     });
 
@@ -83,44 +98,21 @@ $(document).ready(function () {
         if (totalNumber === randomNumber) {
             alert("You Won!");
             win++;
+            totalNumber = 0;
+            randomNumber = Math.floor(Math.random() * 101);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
              losses++;
+             totalNumber = 0;
+             randomNumber = Math.floor(Math.random() * 101);
          }
-        $("wins-text").text(wins);
+        $("#wins-text").text(wins);
         $("#losses-text").text(losses);
-     
+        $("#randomNumber-text").text(randomNumber);
     });
 
-   // if (totalNumber === randomNumber) {
-   //    alert("You Won!");
-   //    win++;
-   // }
-   // else if (totalNumber > randomNumber) {
-  //      alert("Try Again!");
-  //      losses++;
-  //  }
     
-
-
-    console.log('total number is' + totalNumber);
-
-
-
-
-
-
-//Set Html where to display it
-
-    
-   
-    $("#randomNumber-text").text(randomNumber);
-    $("wins-text").text(wins);
-    $("#losses-text").text(losses);
-    $("#totalNumber-text").text(totalNumber);
-
-
 });
 
 
