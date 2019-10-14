@@ -26,7 +26,7 @@ $(document).ready(function () {
         console.log('total number is' + totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
-            win++;
+            wins++;
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             
@@ -50,7 +50,7 @@ $(document).ready(function () {
         console.log('total number is' + totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
-            win++;
+            wins++;
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
          }
@@ -73,7 +73,7 @@ $(document).ready(function () {
         console.log('total number is' + totalNumber);
         if (totalNumber === randomNumber) {
             alert("You Won!");
-            win++;
+            wins++;
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
          }
@@ -97,7 +97,7 @@ $(document).ready(function () {
         
         if (totalNumber === randomNumber) {
             alert("You Won!");
-            win++;
+            wins++;
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
          }
