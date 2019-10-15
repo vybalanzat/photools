@@ -30,6 +30,9 @@ $(document).ready(function () {
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             blue = Math.floor(Math.random() * 11);
+            purple = Math.floor(Math.random() * 11);
+            green =  Math.floor(Math.random() * 11);
+            red  = Math.floor(Math.random() * 11);
             
          }
          else if (totalNumber > randomNumber) {
@@ -38,6 +41,9 @@ $(document).ready(function () {
              totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             blue = Math.floor(Math.random() * 11);
+            purple = Math.floor(Math.random() * 11);
+            green =  Math.floor(Math.random() * 11);
+            red  = Math.floor(Math.random() * 11);
          }
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
@@ -56,6 +62,8 @@ $(document).ready(function () {
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             purple = Math.floor(Math.random() * 11);
+            blue = Math.floor(Math.random() * 11);
+            green =  Math.floor(Math.random() * 11);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
@@ -63,6 +71,9 @@ $(document).ready(function () {
              totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             purple = Math.floor(Math.random() * 11);
+            blue = Math.floor(Math.random() * 11);
+            green =  Math.floor(Math.random() * 11);
+            red  = Math.floor(Math.random() * 11);
          }
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
@@ -81,6 +92,9 @@ $(document).ready(function () {
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             red = Math.floor(Math.random() * 11);
+            purple = Math.floor(Math.random() * 11);
+            blue = Math.floor(Math.random() * 11);
+            red  = Math.floor(Math.random() * 11);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
@@ -88,6 +102,9 @@ $(document).ready(function () {
              totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             red = Math.floor(Math.random() * 11);
+            purple = Math.floor(Math.random() * 11);
+            blue = Math.floor(Math.random() * 11);
+            green =  Math.floor(Math.random() * 11);
          }
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
@@ -107,6 +124,9 @@ $(document).ready(function () {
             totalNumber = 0;
             randomNumber = Math.floor(Math.random() * 101);
             green =  Math.floor(Math.random() * 11);
+            purple = Math.floor(Math.random() * 11);
+            blue = Math.floor(Math.random() * 11);
+            red  = Math.floor(Math.random() * 11);
          }
          else if (totalNumber > randomNumber) {
              alert("Try Again!");
@@ -114,6 +134,9 @@ $(document).ready(function () {
              totalNumber = 0;
              randomNumber = Math.floor(Math.random() * 101);
              green =  Math.floor(Math.random() * 11);
+             purple = Math.floor(Math.random() * 11);
+             blue = Math.floor(Math.random() * 11);
+             red  = Math.floor(Math.random() * 11);
          }
         $("#wins-text").text(wins);
         $("#losses-text").text(losses);
